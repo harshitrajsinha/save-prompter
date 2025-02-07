@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #00000080;
+  height: 100vh;
+  width: 100vw;
+}
+
+.prompt-window {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 90vw;
+  height: 90vh;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.prompt-window__tarea {
+  position: relative;
+  width: 85%;
+  height: 10rem;
+  padding-top: 3rem;
+  margin: 0 auto;
+}
+
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: none;
+  width: 100%;
+  min-height: 30%;
+  max-height: 100%;
+  outline: none;
+  field-sizing: content; /* Not compatible with all browsers */
+}
+
+.prompt-window__customMenu {
+  display: none;
+  position: absolute;
+  background: rgb(45, 42, 42);
+  border: 1px solid black;
+  padding: 5px;
+  height: auto;
+  border-radius: 0.2rem;
+}
+
+.prompt-window__customMenu button {
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.prompt-window__customMenu button:hover {
+  background: rgb(68, 68, 68);
+  border: none;
+  outline: none;
+  color: white;
+}
